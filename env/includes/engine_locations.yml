@@ -27,9 +27,13 @@ engines.tk-aftereffects.location:
   name: tk-aftereffects
   version: v0.3.3
 engines.tk-alias.location:
-  type: app_store
-  name: tk-alias
-  version: v3.0.2
+  # type: app_store
+  # name: tk-alias
+  # version: v3.0.2
+  type: git_branch
+  path: https://github.com/shotgunsoftware/tk-alias.git
+  branch: ticket/SHOT-4336-fix-restart-plugin
+  version: 2185b17
 engines.tk-desktop.location:
   type: app_store
   name: tk-desktop
