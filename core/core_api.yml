@@ -18,5 +18,5 @@ location:
   # Test Dev Maya Pipeline
   type: git_branch
   branch: SG-34534_Add_Shiboken_Module_To_Tk_Core_Qtimporter_Class
-  path: git@github.com:NorberMV/tk-core-maya.git
+  path: https://github.com/NorberMV/tk-core-maya.git
   version: 307a292
