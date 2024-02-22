@@ -56,9 +56,9 @@ engines.tk-maya.location:
 #  version: v0.11.8
 
   # Test Dev Maya Pipeline
-  type: git_branch,
-  branch: SG-31832_Update_Tk_Maya_To_Support_Maya_2025_Using_Pyside6,
-  path: git@github.com:shotgunsoftware/tk-maya.git,
+  type: git_branch
+  branch: SG-31832_Update_Tk_Maya_To_Support_Maya_2025_Using_Pyside6
+  path: git@github.com:shotgunsoftware/tk-maya.git
   version: 652f677
 #  type: git_branch
 #  branch: SG-31832-poc
