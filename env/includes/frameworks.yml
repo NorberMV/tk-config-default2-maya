@@ -42,9 +42,13 @@ frameworks:
       name: tk-framework-desktopserver
   tk-framework-qtwidgets_v2.x.x:
     location:
-      version: v2.10.11
-      type: app_store
-      name: tk-framework-qtwidgets
+#      version: v2.10.11
+#      type: app_store
+#      name: tk-framework-qtwidgets
+      type: git_branch
+      branch: Fix_Maya_Signal_Issue
+      path: https://github.com/NorberMV/tk-framework-qtwidgets-maya.git
+      version: 47049cb
   tk-framework-shotgunutils_v4.x.x:
     location:
       version: v4.4.15
