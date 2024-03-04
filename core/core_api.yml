@@ -16,7 +16,7 @@ location:
 #  name: tk-core
 #  version: v0.20.30
   # Test Dev Maya Pipeline
-  type: git_branch,
+  type: git_branch
   branch: ticket/SG-34066-rebranding
   path: git@github.com:shotgunsoftware/tk-core.git
   version: 9d89b1c
