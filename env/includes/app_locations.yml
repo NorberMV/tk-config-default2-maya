@@ -94,6 +94,13 @@ apps.tk-multi-devutils.location:
   branch: ticket/SG-34323-rebranding
   version: 8e704b6
   path: git@github.com:shotgunsoftware/tk-multi-devutils.git
+
+apps.tk-multi-importcut.location:
+    type: git_branch
+    branch: ticket/SG-34324-rebranding
+    path: git@github.com:shotgunsoftware/tk-multi-importcut.git
+    version: 36818db
+
 apps.tk-multi-bg-publish.location:
   type: app_store
   name: tk-multi-bg-publish
