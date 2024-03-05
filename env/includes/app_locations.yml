@@ -71,11 +71,7 @@ apps.tk-multi-pythonconsole.location:
 #  path: git@github.com:shotgunsoftware/tk-multi-reviewsubmission.git
 #  version: 05cc9be
 
-tk-multi-reviewsubmission:
-  display_name: Send for review
-  render_media_hook: '{self}/render_media.py:{self}/{engine_name}/render_media.py'
-  submitter_hook: '{self}/submitter_create.py'
-  location:
+tk-multi-reviewsubmission.location:
 #    type: app_store
 #    name: tk-multi-reviewsubmission
 #    version: v1.0.1
