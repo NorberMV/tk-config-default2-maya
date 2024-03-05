@@ -63,9 +63,13 @@ apps.tk-multi-pythonconsole.location:
   name: tk-multi-pythonconsole
   version: v1.3.2
 apps.tk-multi-reviewsubmission.location:
-  type: app_store
-  name: tk-multi-reviewsubmission
-  version: v1.2.1
+#  type: app_store
+#  name: tk-multi-reviewsubmission
+#  version: v1.2.1
+  type: git_branch
+  branch: ticket/SG-34330-rebranding
+  path: git@github.com:shotgunsoftware/tk-multi-reviewsubmission.git
+  version: 05cc9be
 apps.tk-multi-screeningroom.location:
   type: app_store
   name: tk-multi-screeningroom
