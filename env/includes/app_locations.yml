@@ -71,9 +71,13 @@ apps.tk-multi-reviewsubmission.location:
   path: git@github.com:shotgunsoftware/tk-multi-reviewsubmission.git
   version: 05cc9be
 apps.tk-multi-screeningroom.location:
-  type: app_store
-  name: tk-multi-screeningroom
-  version: v0.5.1
+#  type: app_store
+#  name: tk-multi-screeningroom
+#  version: v0.5.1
+  type: git_branch
+  branch: ticket/SG-34332-rebranding
+  path: git@github.com:shotgunsoftware/tk-multi-screeningroom.git
+  version: a5cac89
 apps.tk-multi-setframerange.location:
   type: app_store
   name: tk-multi-setframerange
